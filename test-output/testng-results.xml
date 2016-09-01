@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3039" started-at="2016-09-01T16:41:48Z" finished-at="2016-09-01T16:41:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3039" started-at="2016-09-01T16:41:48Z" finished-at="2016-09-01T16:41:51Z">
+      <class name="lesson11.SqlGroupDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="10" started-at="2016-09-01T18:41:48Z" finished-at="2016-09-01T18:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2314" started-at="2016-09-01T18:41:48Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-09-01T18:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="deleteGroupTest()[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="deleteGroupTest" duration-ms="270" started-at="2016-09-01T18:41:50Z" finished-at="2016-09-01T18:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteGroupTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:50Z" finished-at="2016-09-01T18:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.deleteGroupTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertGroupTest()[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="insertGroupTest" duration-ms="340" started-at="2016-09-01T18:41:50Z" finished-at="2016-09-01T18:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertGroupTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:50Z" finished-at="2016-09-01T18:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.insertGroupTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:50Z" finished-at="2016-09-01T18:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.deleteGroupTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.insertGroupTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.selectAllGroupsTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="selectAllGroupsTest()[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="selectAllGroupsTest" duration-ms="10" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllGroupsTest -->
+        <test-method status="PASS" signature="selectGroupTest()[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="selectGroupTest" duration-ms="0" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGroupTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.selectAllGroupsTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.selectGroupTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.selectGroupTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.updateGroupTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="updateGroupTest()[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="updateGroupTest" duration-ms="40" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGroupTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void lesson11.SqlGroupDaoTest.updateGroupTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:lesson11.SqlGroupDaoTest@43814d18]" name="springTestContextAfterTestClass" is-config="true" duration-ms="10" started-at="2016-09-01T18:41:51Z" finished-at="2016-09-01T18:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- lesson11.SqlGroupDaoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
